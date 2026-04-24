@@ -1,0 +1,62 @@
+.about-section {
+  padding: var(--section-padding);
+  position: relative;
+  z-index: 1;
+}
+
+.about-content.centered {
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.about-text {
+  color: var(--text-secondary);
+  font-size: 1.1rem;
+  line-height: 1.8;
+}
+
+.about-exploring {
+  margin-top: 1.5rem;
+  padding: 1.5rem 2rem;
+  width: 100%;
+  max-width: 600px;
+  text-align: left;
+  border-color: rgba(6, 182, 212, 0.2);
+}
+
+.about-exploring h3 {
+  font-size: 1.2rem;
+  color: var(--text-primary);
+  margin-bottom: 1rem;
+  font-family: var(--font-mono);
+  color: var(--accent-cyan);
+}
+
+.exploring-list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+}
+
+.exploring-list li {
+  position: relative;
+  padding-left: 1.5rem;
+  color: var(--text-secondary);
+  font-size: 1rem;
+}
+
+.exploring-list li::before {
+  content: '▹';
+  position: absolute;
+  left: 0;
+  top: 0;
+  color: var(--accent-purple);
+  font-size: 1.2rem;
+  line-height: 1;
+}
