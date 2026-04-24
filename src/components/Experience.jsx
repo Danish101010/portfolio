@@ -9,22 +9,14 @@ const Experience = () => {
       company: "Pattern",
       location: "Pune, India",
       date: "May 2025 – July 2025",
-      points: [
-        "Architected AI Image Quality Audit System, reducing QA effort by 75%.",
-        "Engineered scalable web scraping and transcript analysis pipelines using LLMs and Whisper ASR.",
-        "Built a hierarchical secrets management system integrated with AWS."
-      ]
+      description: "Architected an AI-powered Image Quality Audit System, reducing QA effort by 75%. Engineered scalable web scraping and transcript analysis pipelines using LLMs and Whisper ASR, and built a hierarchical secrets management system integrated with AWS."
     },
     {
       role: "Artificial Intelligence Researcher",
       company: "Modernmonklabs",
       location: "Remote",
       date: "Jun 2024 - Aug 2024",
-      points: [
-        "Researched GraphML based approaches for Drug discovery.",
-        "Worked on encoding drug compounds, utilized Sequence RNN and Graph-Transformer models.",
-        "Predicted outcomes of interaction between drug and target protein by training models on biomedical datasets."
-      ]
+      description: "Researched GraphML-based approaches for drug discovery. Encoded drug compounds using Sequence RNN and Graph-Transformer models to predict interaction outcomes between drugs and target proteins by training on biomedical datasets."
     }
   ];
 
@@ -54,11 +46,7 @@ const Experience = () => {
                   </div>
                 </div>
                 
-                <ul className="exp-points">
-                  {exp.points.map((point, idx) => (
-                    <li key={idx}>{point}</li>
-                  ))}
-                </ul>
+                <p className="exp-description">{exp.description}</p>
               </div>
             </div>
           ))}

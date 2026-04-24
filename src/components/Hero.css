@@ -372,4 +372,11 @@
     top: 75%;
     left: -15%;
   }
+
+  .scroll-indicator {
+    position: relative;
+    bottom: auto;
+    margin-top: 1rem;
+    padding-bottom: 2rem;
+  }
 }
