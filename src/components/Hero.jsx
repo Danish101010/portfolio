@@ -56,12 +56,6 @@ const Hero = () => {
           <div className="profile-wrapper">
             <div className="profile-glow"></div>
             <img src={profileImg} alt="Danish Siddiqui" className="profile-image" />
-            <div className="glass-card tech-card card-1">
-              <div className="tech-dot py"></div> Python
-            </div>
-            <div className="glass-card tech-card card-3">
-              <div className="tech-dot ml"></div> AI/ML
-            </div>
           </div>
         </div>
       </div>

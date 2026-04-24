@@ -4,7 +4,7 @@ import { FaGithub } from 'react-icons/fa';
 import './Projects.css';
 
 const Projects = () => {
-  const [activeTab, setActiveTab] = useState('All');
+  const [activeTab, setActiveTab] = useState('AI Integrations');
 
   const categories = ['All', 'AI Integrations', 'Web Development', 'C++ / Systems', 'LLMs'];
 
