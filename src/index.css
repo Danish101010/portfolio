@@ -196,7 +196,7 @@ body {
 
 @media (max-width: 768px) {
   :root {
-    --section-padding: 4rem 1rem;
+    --section-padding: 2.5rem 1rem;
   }
   .section-title {
     font-size: 2rem;
