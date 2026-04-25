@@ -34,7 +34,7 @@ const Contact = () => {
               </div>
             </a>
             
-            <a href="tel:+917857078846" className="contact-item">
+            {/* <a href="tel:+917857078846" className="contact-item">
               <div className="contact-icon-wrapper">
                 <Phone size={24} />
               </div>
@@ -42,7 +42,7 @@ const Contact = () => {
                 <span>Phone</span>
                 <strong>+91 7857078846</strong>
               </div>
-            </a>
+            </a> */}
             
             <div className="contact-item">
               <div className="contact-icon-wrapper">
